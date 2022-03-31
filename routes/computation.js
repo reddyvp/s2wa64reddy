@@ -16,7 +16,7 @@ router.get('/', function (req, res, next) {
 
 
   
-  let a = Math.cos(x,x) 
+  let a = Math.cos(x) 
   let b =Math.asin(x)
   let c = Math.asinh(x)
   res.render('computation', {
