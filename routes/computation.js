@@ -21,9 +21,9 @@ router.get('/', function (req, res, next) {
   let c = Math.asinh(x)
   res.render('computation', {
     title: 'Bonus',
-    values: `applied to ` + x + ` is ` + cos ,
-    v1: `applied to ` + x + ` is ` + asin,
-    v2: `applied to ` + x + ` is ` + asinh
+    values: `applied to ` + x + ` is ` + a,
+    v1: `applied to ` + x + ` is ` + b,
+    v2: `applied to ` + x + ` is ` + c
   });
 });
 
